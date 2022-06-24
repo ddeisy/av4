@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AV4</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+    
+</head>
+<body>
+    <header class="title">SLIDESHOW</header>
+    <span>Selecione uma foto:</span>
+    <input type="file" id="fileUploaded"/>
+    <div id="msg"></div>
+    <div class="lineInput">
+        <label>Descrição</label>
+        <input type="text" id="Descricao">
+        <button onclick="slide.cadastrar()">Enviar</button>
+    </div>
+    <div>
+        <button onclick="slide.atualizar()">Atualizar lista</button>
+        <button onclick="slide.mostrar()">Mostrar slides</button>
+    </div>
+    <div>
+        <button onclick="slide.anterior()">Anterio</button>
+        <label>Exibindo</label>
+        <input type="number" id="Exibindo">
+        <button onclick="slide.proximo()">Proximo</button>
+    </div>
+    <div class="img">
+        <img src="https://hoteltermasdolago.com.br/wp-content/uploads/2016/10/pagina_em_construcao.jpg" alt="">
+    </div>
+    <div class="img">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqJw9Cg48xgnOYkzEefCR4jGSUZqCLXfdAbUbuIwk4E3o8-J8477iwgdoE1AaONwJpCjk&usqp=CAU" alt="">
+    </div>
+    <div class="img">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMl91xZRSr6zHYiX1-fr8KLcAKToT5VFfj5_BgKfioqcnKZzSf2FCGHRF8Zw07A0Zbr6A&usqp=CAU" alt="">
+    </div>
+</body>
+</html>
